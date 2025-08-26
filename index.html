@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+	<title>Future Human</title>
+
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="../favicon.ico">
+
+	<!-- Web Fonts -->
+	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&amp;subset=cyrillic,latin">
+
+	<!-- CSS Global Compulsory -->
+	<link rel="stylesheet" href="./moreFolders/assets/plugins/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="./moreFolders/assets/css/app.css">
+	<link rel="stylesheet" href="./moreFolders/assets/css/blocks.css">
+	<link rel="stylesheet" href="./moreFolders/assets/css/one.style.css">
+
+	<!-- CSS Footer -->
+	<link rel="stylesheet" href="moreFolders/App/assets/css/footers/footer-v7.css">
+
+	<!-- CSS Implementing Plugins -->
+	<link rel="stylesheet" href="./moreFolders/assets/plugins/animate.css">
+	<link rel="stylesheet" href="./moreFolders/assets/plugins/line-icons/line-icons.css">
+	<link rel="stylesheet" href="./moreFolders/assets/plugins/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="./moreFolders/assets/plugins/pace/pace-flash.css">
+	<link rel="stylesheet" href="./moreFolders/assets/plugins/owl-carousel2/assets/owl.carousel.css">
+	<link rel="stylesheet" href="./moreFolders/assets/plugins/cube-portfolio/cubeportfolio/css/cubeportfolio.min.css">
+	<link rel="stylesheet" href="./moreFolders/assets/plugins/cube-portfolio/cubeportfolio/custom/custom-cubeportfolio.css">
+	<link rel="stylesheet" href="./moreFolders/assets/plugins/shhos/shhos.css">
+
+  <!-- CSS Theme -->
+  <link rel="stylesheet" href="moreFolders/App/assets/css/app.style.css">
+
+  <!-- CSS Customization -->
+  <link rel="stylesheet" href="moreFolders/App/assets/css/custom.css">
+</head>
+
+<body id="body" data-spy="scroll" data-target=".one-page-header" class="demo-lightbox-gallery">
+	<!-- Header -->
+	<nav class="one-page-header navbar navbar-default navbar-fixed-animate homeapp-header" data-role="navigation">
+		<div class="container">
+			<div class="menu-container page-scroll">
+				<!-- <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button> -->
+				<a class="navbar-brand" href="#body">
+					Future Human
+				</a>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<!-- <div class="collapse navbar-collapse navbar-ex1-collapse">
+				<div class="menu-container">
+					<ul class="nav navbar-nav">
+						<li class="page-scroll home">
+							<a href="#schedule">Schedule</a>
+						</li>
+						<li class="page-scroll">
+							<a href="#faqsec">Faq</a>
+						</li>
+						<!-- <li class="page-scroll hidden-xs hidden-sm">
+							<a href="#contact" class="btn-u btn-u-lg btn-u-green btn-u-upper rounded-2x">Pay Now</a>
+						</li> -->
+					<!-- </ul>
+				</div>
+			</div> -->
+			<!-- /.navbar-collapse -->
+		</div>
+		<!-- /.container -->
+	</nav>
+	<!-- End Header -->
+
+	<!-- Fundraiser Block -->
+	<section class="promo-section" id="schedule">
+		<div class="container">
+			<div style="padding: 100px 0 20px; font-size: 16px">
+				<div class="row">
+					<div class="col-md-12 col-sm-12 col-xs-12 promo-info" style="text-align: center ">
+						<h1><strong>Future Human</strong></h1>
+						<p>Our webapp is under construction, so please use this portal to schedule and pay for services. Thank you!</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 col-sm-12 col-xs-12 overflow-h">
+						<img class="img-responsive wow" style="width:200px; border-radius: 50%; margin-left: auto; margin-right: auto; display: block" src="./moreFolders/assets/img/M&M.png" alt="">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4 col-sm-12 col-xs-12 promo-info" style="padding: 10px; text-align: center; margin: 40px 0 40px">
+						<div class="card" style="padding: 30px 10px; transition: 0.3s; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); border-radius: 20px; width: 90%; margin: 0 auto">
+							<h3 style="margin-bottom: 30px">App & Community $99/mo</h3>
+							<!-- <h5 style="margin-bottom: 30px">In this 15 minute session we will cover ...</h5> -->
+							<!-- Calendly link widget begin -->
+							<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+							<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+							<!-- <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/future_human/20min'});return false;">Schedule</a> -->
+							<button onclick="Calendly.showPopupWidget('https://calendly.com/future_human/20min');return false;" class="btn-u btn-u-lg btn-u-green btn-u-upper rounded-2x">Schedule</button>
+							<!-- Stripe widget begin -->
+							<form action="/confirmation1" method="POST" style="padding: 10px 0px; margin-top: 10px">
+								<script
+								src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+								data-key="pk_live_51BFtL0Lfu8P8pb63OzhyOBwPHhn2rcEnKLlUPTKBO2uBp13wz6xCXHdesABddcWXdqzrKlu82Z4P9CWQ3VKZ4lgr00cWetDqnm"
+								data-amount="7700"
+								data-name="Future Human"
+								data-description="Book & Community $99/mo"
+								data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+								data-zip-code="true"
+								data-billing-address="true"
+								data-locale="auto">
+								</script>
+							</form>
+							<!-- Stripe widget end -->
+							<!-- Calendly link widget end -->
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-12 col-xs-12 promo-info" style="padding: 10px; text-align: center; margin: 40px 0 40px">
+						<div class="card" style="padding: 30px 10px; transition: 0.3s; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); border-radius: 20px; width: 90%; margin: 0 auto">
+							<h3 style="margin-bottom: 30px">Example Course $137</h3>
+							<!-- <h5 style="margin-bottom: 30px">In this 30 minute session we will cover ...</h5> -->
+							<!-- Calendly link widget begin -->
+							<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+							<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+							<button onclick="Calendly.showPopupWidget('https://calendly.com/future_human/40min');return false;" class="btn-u btn-u-lg btn-u-green btn-u-upper rounded-2x">Schedule</button>
+							<!-- Calendly link widget end -->
+							<!-- Stripe widget begin -->
+							<form action="/confirmation2" method="POST" style="padding: 10px 0px; margin-top: 10px">
+								<script
+								src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+								data-key="pk_live_51BFtL0Lfu8P8pb63OzhyOBwPHhn2rcEnKLlUPTKBO2uBp13wz6xCXHdesABddcWXdqzrKlu82Z4P9CWQ3VKZ4lgr00cWetDqnm"
+								data-amount="13700"
+								data-name="Future Human"
+								data-description="Example Course $137"
+								data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+								data-zip-code="true"
+								data-billing-address="true"
+								data-locale="auto">
+								</script>
+							</form>
+							<!-- Stripe widget end -->
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-12 col-xs-12 promo-info" style="padding: 10px; text-align: center; margin: 40px 0 40px">
+						<div class="card" style="padding: 30px 10px; transition: 0.3s; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); border-radius: 20px; width: 90%; margin: 0 auto">
+							<h3 style="margin-bottom: 30px">Mem Palace Info $14.99</h3>
+							<!-- <h5 style="margin-bottom: 30px">In this 60 minute session we will cover ...</h5> -->
+							<!-- Calendly link widget begin -->
+							<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+							<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+							<button onclick="Calendly.showPopupWidget('https://calendly.com/future_human/60min');return false;" class="btn-u btn-u-lg btn-u-green btn-u-upper rounded-2x">Schedule</button>
+							<!-- Calendly link widget end -->
+							<!-- Stripe widget begin -->
+							<form action="/confirmation3" method="POST" style="padding: 10px 0px; margin-top: 10px">
+								<script
+								src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+								data-key="pk_live_51BFtL0Lfu8P8pb63OzhyOBwPHhn2rcEnKLlUPTKBO2uBp13wz6xCXHdesABddcWXdqzrKlu82Z4P9CWQ3VKZ4lgr00cWetDqnm"
+								data-amount="275800"
+								data-name="Future Human"
+								data-description="Child Soldier Masterclass Bundle $2758"
+								data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+								data-zip-code="true"
+								data-billing-address="true"
+								data-locale="auto">
+								</script>
+							</form>
+							<!-- Stripe widget end -->
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-12 col-xs-12 promo-info" style="padding: 10px; text-align: center; margin: 40px 0 40px">
+						<div class="card" style="padding: 30px 10px; transition: 0.3s; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); border-radius: 20px; width: 90%; margin: 0 auto">
+							<h3 style="margin-bottom: 30px">Relationships Webcast Workshop $39.99</h3>
+							<!-- <h5 style="margin-bottom: 30px">In this 60 minute session we will cover ...</h5> -->
+							<!-- Calendly link widget begin -->
+							<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+							<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+							<button onclick="Calendly.showPopupWidget('https://calendly.com/future_human/60min');return false;" class="btn-u btn-u-lg btn-u-green btn-u-upper rounded-2x">Schedule</button>
+							<!-- Calendly link widget end -->
+							<!-- Stripe widget begin -->
+							<form action="/confirmation3" method="POST" style="padding: 10px 0px; margin-top: 10px">
+								<script
+								src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+								data-key="pk_live_51BFtL0Lfu8P8pb63OzhyOBwPHhn2rcEnKLlUPTKBO2uBp13wz6xCXHdesABddcWXdqzrKlu82Z4P9CWQ3VKZ4lgr00cWetDqnm"
+								data-amount="275800"
+								data-name="Future Human"
+								data-description="Child Soldier Masterclass Bundle $2758"
+								data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+								data-zip-code="true"
+								data-billing-address="true"
+								data-locale="auto">
+								</script>
+							</form>
+							<!-- Stripe widget end -->
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-12 col-xs-12 promo-info" style="padding: 10px; text-align: center; margin: 40px 0 40px">
+						<div class="card" style="padding: 30px 10px; transition: 0.3s; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); border-radius: 20px; width: 90%; margin: 0 auto">
+							<h3 style="margin-bottom: 30px">Energy use for business/RE/etc $2758</h3>
+							<!-- <h5 style="margin-bottom: 30px">In this 60 minute session we will cover ...</h5> -->
+							<!-- Calendly link widget begin -->
+							<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+							<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+							<button onclick="Calendly.showPopupWidget('https://calendly.com/future_human/60min');return false;" class="btn-u btn-u-lg btn-u-green btn-u-upper rounded-2x">Schedule</button>
+							<!-- Calendly link widget end -->
+							<!-- Stripe widget begin -->
+							<form action="/confirmation3" method="POST" style="padding: 10px 0px; margin-top: 10px">
+								<script
+								src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+								data-key="pk_live_51BFtL0Lfu8P8pb63OzhyOBwPHhn2rcEnKLlUPTKBO2uBp13wz6xCXHdesABddcWXdqzrKlu82Z4P9CWQ3VKZ4lgr00cWetDqnm"
+								data-amount="275800"
+								data-name="Future Human"
+								data-description="Child Soldier Masterclass Bundle $2758"
+								data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+								data-zip-code="true"
+								data-billing-address="true"
+								data-locale="auto">
+								</script>
+							</form>
+							<!-- Stripe widget end -->
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-12 col-xs-12 promo-info" style="padding: 10px; text-align: center; margin: 40px 0 40px">
+						<div class="card" style="padding: 30px 10px; transition: 0.3s; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); border-radius: 20px; width: 90%; margin: 0 auto">
+							<h3 style="margin-bottom: 30px">The biology of x. Allergy. Cancer. $2758</h3>
+							<!-- <h5 style="margin-bottom: 30px">In this 60 minute session we will cover ...</h5> -->
+							<!-- Calendly link widget begin -->
+							<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+							<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+							<button onclick="Calendly.showPopupWidget('https://calendly.com/future_human/60min');return false;" class="btn-u btn-u-lg btn-u-green btn-u-upper rounded-2x">Schedule</button>
+							<!-- Calendly link widget end -->
+							<!-- Stripe widget begin -->
+							<form action="/confirmation3" method="POST" style="padding: 10px 0px; margin-top: 10px">
+								<script
+								src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+								data-key="pk_live_51BFtL0Lfu8P8pb63OzhyOBwPHhn2rcEnKLlUPTKBO2uBp13wz6xCXHdesABddcWXdqzrKlu82Z4P9CWQ3VKZ4lgr00cWetDqnm"
+								data-amount="275800"
+								data-name="Future Human"
+								data-description="Child Soldier Masterclass Bundle $2758"
+								data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+								data-zip-code="true"
+								data-billing-address="true"
+								data-locale="auto">
+								</script>
+							</form>
+							<!-- Stripe widget end -->
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-12 col-xs-12 promo-info" style="padding: 10px; text-align: center; margin: 40px 0 40px">
+						<div class="card" style="padding: 30px 10px; transition: 0.3s; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); border-radius: 20px; width: 90%; margin: 0 auto">
+							<h3 style="margin-bottom: 30px">The new law $2758</h3>
+							<!-- <h5 style="margin-bottom: 30px">In this 60 minute session we will cover ...</h5> -->
+							<!-- Calendly link widget begin -->
+							<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+							<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+							<button onclick="Calendly.showPopupWidget('https://calendly.com/future_human/60min');return false;" class="btn-u btn-u-lg btn-u-green btn-u-upper rounded-2x">Schedule</button>
+							<!-- Calendly link widget end -->
+							<!-- Stripe widget begin -->
+							<form action="/confirmation3" method="POST" style="padding: 10px 0px; margin-top: 10px">
+								<script
+								src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+								data-key="pk_live_51BFtL0Lfu8P8pb63OzhyOBwPHhn2rcEnKLlUPTKBO2uBp13wz6xCXHdesABddcWXdqzrKlu82Z4P9CWQ3VKZ4lgr00cWetDqnm"
+								data-amount="275800"
+								data-name="Future Human"
+								data-description="Child Soldier Masterclass Bundle $2758"
+								data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+								data-zip-code="true"
+								data-billing-address="true"
+								data-locale="auto">
+								</script>
+							</form>
+							<!-- Stripe widget end -->
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-12 col-xs-12 promo-info" style="padding: 10px; text-align: center; margin: 40px 0 40px">
+						<div class="card" style="padding: 30px 10px; transition: 0.3s; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); border-radius: 20px; width: 90%; margin: 0 auto">
+							<h3 style="margin-bottom: 30px">Example Event/Group Work $758</h3>
+							<!-- <h5 style="margin-bottom: 30px">In this 60 minute session we will cover ...</h5> -->
+							<!-- Calendly link widget begin -->
+							<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+							<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+							<button onclick="Calendly.showPopupWidget('https://calendly.com/future_human/60min');return false;" class="btn-u btn-u-lg btn-u-green btn-u-upper rounded-2x">Schedule</button>
+							<!-- Calendly link widget end -->
+							<!-- Stripe widget begin -->
+							<form action="/confirmation3" method="POST" style="padding: 10px 0px; margin-top: 10px">
+								<script
+								src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+								data-key="pk_live_51BFtL0Lfu8P8pb63OzhyOBwPHhn2rcEnKLlUPTKBO2uBp13wz6xCXHdesABddcWXdqzrKlu82Z4P9CWQ3VKZ4lgr00cWetDqnm"
+								data-amount="275800"
+								data-name="Future Human"
+								data-description="Child Soldier Masterclass Bundle $2758"
+								data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+								data-zip-code="true"
+								data-billing-address="true"
+								data-locale="auto">
+								</script>
+							</form>
+							<!-- Stripe widget end -->
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-12 col-xs-12 promo-info" style="padding: 10px; text-align: center; margin: 40px 0 40px">
+						<div class="card" style="padding: 30px 10px; transition: 0.3s; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); border-radius: 20px; width: 90%; margin: 0 auto">
+							<h3 style="margin-bottom: 30px">Skitzo Demon Kill Session $20/person</h3>
+							<!-- <h5 style="margin-bottom: 30px">In this 60 minute session we will cover ...</h5> -->
+							<!-- Calendly link widget begin -->
+							<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+							<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+							<button onclick="Calendly.showPopupWidget('https://calendly.com/future_human/60min');return false;" class="btn-u btn-u-lg btn-u-green btn-u-upper rounded-2x">Schedule</button>
+							<!-- Calendly link widget end -->
+							<!-- Stripe widget begin -->
+							<form action="/confirmation3" method="POST" style="padding: 10px 0px; margin-top: 10px">
+								<script
+								src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+								data-key="pk_live_51BFtL0Lfu8P8pb63OzhyOBwPHhn2rcEnKLlUPTKBO2uBp13wz6xCXHdesABddcWXdqzrKlu82Z4P9CWQ3VKZ4lgr00cWetDqnm"
+								data-amount="275800"
+								data-name="Future Human"
+								data-description="Child Soldier Masterclass Bundle $2758"
+								data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+								data-zip-code="true"
+								data-billing-address="true"
+								data-locale="auto">
+								</script>
+							</form>
+							<!-- Stripe widget end -->
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-12 col-xs-12 promo-info" style="padding: 10px; text-align: center; margin: 40px 0 40px">
+						<div class="card" style="padding: 30px 10px; transition: 0.3s; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); border-radius: 20px; width: 90%; margin: 0 auto">
+							<h3 style="margin-bottom: 30px">Lifestyle, mem palace use, healthy x $2758</h3>
+							<!-- <h5 style="margin-bottom: 30px">In this 60 minute session we will cover ...</h5> -->
+							<!-- Calendly link widget begin -->
+							<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+							<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+							<button onclick="Calendly.showPopupWidget('https://calendly.com/future_human/60min');return false;" class="btn-u btn-u-lg btn-u-green btn-u-upper rounded-2x">Schedule</button>
+							<!-- Calendly link widget end -->
+							<!-- Stripe widget begin -->
+							<form action="/confirmation3" method="POST" style="padding: 10px 0px; margin-top: 10px">
+								<script
+								src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+								data-key="pk_live_51BFtL0Lfu8P8pb63OzhyOBwPHhn2rcEnKLlUPTKBO2uBp13wz6xCXHdesABddcWXdqzrKlu82Z4P9CWQ3VKZ4lgr00cWetDqnm"
+								data-amount="275800"
+								data-name="Future Human"
+								data-description="Child Soldier Masterclass Bundle $2758"
+								data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+								data-zip-code="true"
+								data-billing-address="true"
+								data-locale="auto">
+								</script>
+							</form>
+							<!-- Stripe widget end -->
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-12 col-xs-12 promo-info" style="padding: 10px; text-align: center; margin: 40px 0 40px">
+						<div class="card" style="padding: 30px 10px; transition: 0.3s; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); border-radius: 20px; width: 90%; margin: 0 auto">
+							<h3 style="margin-bottom: 30px">Masterclass Bundle $2758</h3>
+							<!-- <h5 style="margin-bottom: 30px">In this 60 minute session we will cover ...</h5> -->
+							<!-- Calendly link widget begin -->
+							<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+							<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+							<button onclick="Calendly.showPopupWidget('https://calendly.com/future_human/60min');return false;" class="btn-u btn-u-lg btn-u-green btn-u-upper rounded-2x">Schedule</button>
+							<!-- Calendly link widget end -->
+							<!-- Stripe widget begin -->
+							<form action="/confirmation3" method="POST" style="padding: 10px 0px; margin-top: 10px">
+								<script
+								src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+								data-key="pk_live_51BFtL0Lfu8P8pb63OzhyOBwPHhn2rcEnKLlUPTKBO2uBp13wz6xCXHdesABddcWXdqzrKlu82Z4P9CWQ3VKZ4lgr00cWetDqnm"
+								data-amount="275800"
+								data-name="Future Human"
+								data-description="Child Soldier Masterclass Bundle $2758"
+								data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+								data-zip-code="true"
+								data-billing-address="true"
+								data-locale="auto">
+								</script>
+							</form>
+							<!-- Stripe widget end -->
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-12 col-xs-12 promo-info" style="padding: 10px; text-align: center; margin: 40px 0 40px">
+						<div class="card" style="padding: 30px 10px; transition: 0.3s; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); border-radius: 20px; width: 90%; margin: 0 auto">
+							<h3 style="margin-bottom: 30px">Book $28.99</h3>
+							<!-- <h5 style="margin-bottom: 30px">In this 60 minute session we will cover ...</h5> -->
+							<!-- Calendly link widget begin -->
+							<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+							<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+							<button onclick="Calendly.showPopupWidget('https://calendly.com/future_human/60min');return false;" class="btn-u btn-u-lg btn-u-green btn-u-upper rounded-2x">Schedule</button>
+							<!-- Calendly link widget end -->
+							<!-- Stripe widget begin -->
+							<form action="/confirmation3" method="POST" style="padding: 10px 0px; margin-top: 10px">
+								<script
+								src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+								data-key="pk_live_51BFtL0Lfu8P8pb63OzhyOBwPHhn2rcEnKLlUPTKBO2uBp13wz6xCXHdesABddcWXdqzrKlu82Z4P9CWQ3VKZ4lgr00cWetDqnm"
+								data-amount="275800"
+								data-name="Future Human"
+								data-description="Child Soldier Masterclass Bundle $2758"
+								data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+								data-zip-code="true"
+								data-billing-address="true"
+								data-locale="auto">
+								</script>
+							</form>
+							<!-- Stripe widget end -->
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-12 col-xs-12 promo-info" style="padding: 10px; text-align: center; margin: 40px 0 40px">
+						<div class="card" style="padding: 30px 10px; transition: 0.3s; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); border-radius: 20px; width: 90%; margin: 0 auto">
+							<h3 style="margin-bottom: 30px">when consciousness interferrrererers in [software engineering] course</h3>
+							<!-- <h5 style="margin-bottom: 30px">In this 60 minute session we will cover ...</h5> -->
+							<!-- Calendly link widget begin -->
+							<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+							<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+							<button onclick="Calendly.showPopupWidget('https://calendly.com/future_human/60min');return false;" class="btn-u btn-u-lg btn-u-green btn-u-upper rounded-2x">Schedule</button>
+							<!-- Calendly link widget end -->
+							<!-- Stripe widget begin -->
+							<form action="/confirmation3" method="POST" style="padding: 10px 0px; margin-top: 10px">
+								<script
+								src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+								data-key="pk_live_51BFtL0Lfu8P8pb63OzhyOBwPHhn2rcEnKLlUPTKBO2uBp13wz6xCXHdesABddcWXdqzrKlu82Z4P9CWQ3VKZ4lgr00cWetDqnm"
+								data-amount="275800"
+								data-name="Future Human"
+								data-description="Child Soldier Masterclass Bundle $2758"
+								data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+								data-zip-code="true"
+								data-billing-address="true"
+								data-locale="auto">
+								</script>
+							</form>
+							<!-- Stripe widget end -->
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-12 col-xs-12 promo-info" style="padding: 10px; text-align: center; margin: 40px 0 40px">
+						<div class="card" style="padding: 30px 10px; transition: 0.3s; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); border-radius: 20px; width: 90%; margin: 0 auto">
+							<h3 style="margin-bottom: 30px">New idea, creativity, option creation/manifestation $28.99</h3>
+							<!-- <h5 style="margin-bottom: 30px">In this 60 minute session we will cover ...</h5> -->
+							<!-- Calendly link widget begin -->
+							<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+							<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+							<button onclick="Calendly.showPopupWidget('https://calendly.com/future_human/60min');return false;" class="btn-u btn-u-lg btn-u-green btn-u-upper rounded-2x">Schedule</button>
+							<!-- Calendly link widget end -->
+							<!-- Stripe widget begin -->
+							<form action="/confirmation3" method="POST" style="padding: 10px 0px; margin-top: 10px">
+								<script
+								src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+								data-key="pk_live_51BFtL0Lfu8P8pb63OzhyOBwPHhn2rcEnKLlUPTKBO2uBp13wz6xCXHdesABddcWXdqzrKlu82Z4P9CWQ3VKZ4lgr00cWetDqnm"
+								data-amount="275800"
+								data-name="Future Human"
+								data-description="Child Soldier Masterclass Bundle $2758"
+								data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+								data-zip-code="true"
+								data-billing-address="true"
+								data-locale="auto">
+								</script>
+							</form>
+							<!-- Stripe widget end -->
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-12 col-xs-12 promo-info" style="padding: 10px; text-align: center; margin: 40px 0 40px">
+						<div class="card" style="padding: 30px 10px; transition: 0.3s; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); border-radius: 20px; width: 90%; margin: 0 auto">
+							<h3 style="margin-bottom: 30px">Mem palaces and handling overwhelm, insecurity, and reducing emotion amplitude $28.99</h3>
+							<!-- <h5 style="margin-bottom: 30px">In this 60 minute session we will cover ...</h5> -->
+							<!-- Calendly link widget begin -->
+							<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+							<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+							<button onclick="Calendly.showPopupWidget('https://calendly.com/future_human/60min');return false;" class="btn-u btn-u-lg btn-u-green btn-u-upper rounded-2x">Schedule</button>
+							<!-- Calendly link widget end -->
+							<!-- Stripe widget begin -->
+							<form action="/confirmation3" method="POST" style="padding: 10px 0px; margin-top: 10px">
+								<script
+								src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+								data-key="pk_live_51BFtL0Lfu8P8pb63OzhyOBwPHhn2rcEnKLlUPTKBO2uBp13wz6xCXHdesABddcWXdqzrKlu82Z4P9CWQ3VKZ4lgr00cWetDqnm"
+								data-amount="275800"
+								data-name="Future Human"
+								data-description="Child Soldier Masterclass Bundle $2758"
+								data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+								data-zip-code="true"
+								data-billing-address="true"
+								data-locale="auto">
+								</script>
+							</form>
+							<!-- Stripe widget end -->
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-12 col-xs-12 promo-info" style="padding: 10px; text-align: center; margin: 40px 0 40px">
+						<div class="card" style="padding: 30px 10px; transition: 0.3s; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); border-radius: 20px; width: 90%; margin: 0 auto">
+							<h3 style="margin-bottom: 30px">Why important to evolve, gain authority, and dictate (pos of strength improvements)</h3>
+							<!-- <h5 style="margin-bottom: 30px">In this 60 minute session we will cover ...</h5> -->
+							<!-- Calendly link widget begin -->
+							<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+							<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+							<button onclick="Calendly.showPopupWidget('https://calendly.com/future_human/60min');return false;" class="btn-u btn-u-lg btn-u-green btn-u-upper rounded-2x">Schedule</button>
+							<!-- Calendly link widget end -->
+							<!-- Stripe widget begin -->
+							<form action="/confirmation3" method="POST" style="padding: 10px 0px; margin-top: 10px">
+								<script
+								src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+								data-key="pk_live_51BFtL0Lfu8P8pb63OzhyOBwPHhn2rcEnKLlUPTKBO2uBp13wz6xCXHdesABddcWXdqzrKlu82Z4P9CWQ3VKZ4lgr00cWetDqnm"
+								data-amount="275800"
+								data-name="Future Human"
+								data-description="Child Soldier Masterclass Bundle $2758"
+								data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+								data-zip-code="true"
+								data-billing-address="true"
+								data-locale="auto">
+								</script>
+							</form>
+							<!-- Stripe widget end -->
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-12 col-xs-12 promo-info" style="padding: 10px; text-align: center; margin: 40px 0 40px">
+						<div class="card" style="padding: 30px 10px; transition: 0.3s; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); border-radius: 20px; width: 90%; margin: 0 auto">
+							<h3 style="margin-bottom: 30px">Learn to talk with aliens $28.99-$13,000</h3>
+							<!-- <h5 style="margin-bottom: 30px">In this 60 minute session we will cover ...</h5> -->
+							<!-- Calendly link widget begin -->
+							<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+							<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+							<button onclick="Calendly.showPopupWidget('https://calendly.com/future_human/60min');return false;" class="btn-u btn-u-lg btn-u-green btn-u-upper rounded-2x">Schedule</button>
+							<!-- Calendly link widget end -->
+							<!-- Stripe widget begin -->
+							<form action="/confirmation3" method="POST" style="padding: 10px 0px; margin-top: 10px">
+								<script
+								src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+								data-key="pk_live_51BFtL0Lfu8P8pb63OzhyOBwPHhn2rcEnKLlUPTKBO2uBp13wz6xCXHdesABddcWXdqzrKlu82Z4P9CWQ3VKZ4lgr00cWetDqnm"
+								data-amount="275800"
+								data-name="Future Human"
+								data-description="Child Soldier Masterclass Bundle $2758"
+								data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+								data-zip-code="true"
+								data-billing-address="true"
+								data-locale="auto">
+								</script>
+							</form>
+							<!-- Stripe widget end -->
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-12 col-xs-12 promo-info" style="padding: 10px; text-align: center; margin: 40px 0 40px">
+						<div class="card" style="padding: 30px 10px; transition: 0.3s; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); border-radius: 20px; width: 90%; margin: 0 auto">
+							<h3 style="margin-bottom: 30px">Mem palaces and handling overwhelm, insecurity, and reducing emotion amplitude $28.99</h3>
+							<!-- <h5 style="margin-bottom: 30px">In this 60 minute session we will cover ...</h5> -->
+							<!-- Calendly link widget begin -->
+							<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+							<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+							<button onclick="Calendly.showPopupWidget('https://calendly.com/future_human/60min');return false;" class="btn-u btn-u-lg btn-u-green btn-u-upper rounded-2x">Schedule</button>
+							<!-- Calendly link widget end -->
+							<!-- Stripe widget begin -->
+							<form action="/confirmation3" method="POST" style="padding: 10px 0px; margin-top: 10px">
+								<script
+								src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+								data-key="pk_live_51BFtL0Lfu8P8pb63OzhyOBwPHhn2rcEnKLlUPTKBO2uBp13wz6xCXHdesABddcWXdqzrKlu82Z4P9CWQ3VKZ4lgr00cWetDqnm"
+								data-amount="275800"
+								data-name="Future Human"
+								data-description="Child Soldier Masterclass Bundle $2758"
+								data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+								data-zip-code="true"
+								data-billing-address="true"
+								data-locale="auto">
+								</script>
+							</form>
+							<!-- Stripe widget end -->
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-12 col-xs-12 promo-info" style="padding: 10px; text-align: center; margin: 40px 0 40px">
+						<div class="card" style="padding: 30px 10px; transition: 0.3s; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); border-radius: 20px; width: 90%; margin: 0 auto">
+							<h3 style="margin-bottom: 30px">How To Manifest A Trillion Dollars</h3>
+							<!-- <h5 style="margin-bottom: 30px">In this 60 minute session we will cover ...</h5> -->
+							<!-- Calendly link widget begin -->
+							<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+							<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+							<button onclick="Calendly.showPopupWidget('https://calendly.com/future_human/60min');return false;" class="btn-u btn-u-lg btn-u-green btn-u-upper rounded-2x">Schedule</button>
+							<!-- Calendly link widget end -->
+							<!-- Stripe widget begin -->
+							<form action="/confirmation3" method="POST" style="padding: 10px 0px; margin-top: 10px">
+								<script
+								src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+								data-key="pk_live_51BFtL0Lfu8P8pb63OzhyOBwPHhn2rcEnKLlUPTKBO2uBp13wz6xCXHdesABddcWXdqzrKlu82Z4P9CWQ3VKZ4lgr00cWetDqnm"
+								data-amount="275800"
+								data-name="Future Human"
+								data-description="How to Manifest A Trillion Dollars"
+								data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+								data-zip-code="true"
+								data-billing-address="true"
+								data-locale="auto">
+								</script>
+							</form>
+							<!-- Stripe widget end -->
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 col-sm-12 col-xs-12" style="padding: 20px 10px">
+						<p>All service payments are handled securely with <a href="https://stripe.com/" target="_blank" rel="noopener noreferrer">Stripe</a>.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Fundraiser Block -->
+
+	<!-- How It Works -->
+	<!-- <section id="howitworks">
+		<div class="container-fluid with-bg-2">
+			<div class="container">
+				<div class="how-it-works">
+					<div class="g-heading-v10 text-center">
+						<h2 class="g-color-white"><em class="block-name"><span class="g-color-white">01.</span> How it works</em></h2>
+					</div> -->
+					<!-- Owl Carousel v4-->
+					<!-- <div class="owl-carousel-v4 owl-theme">
+						<div class="owl-slider-v4-hiw">
+							<div class="item">
+								<h1 class="g-color-white">Find products you need</h1>
+								<p>1) Confirm your location. 2) Search products available for <strong>INSTANT</strong> or <strong>FAST</strong> delivery in your area.</br>3) Select the products you want and proceed to checkout.</p>
+								<img class="owl-carousel-image" src="./moreFolders/assets/img/MapView_iphone6plus_silver_portrait.png" alt="">
+								<img class="owl-carousel-image" src="./moreFolders/assets/img/ProductScreenBase_iphone6plus_silver_portrait.png" alt="">
+								<img class="owl-carousel-image" src="./moreFolders/assets/img/ProductScreenPicked_iphone6plus_silver_portrait.png" alt="">
+							</div>
+
+							<div class="item">
+								<h1 class="g-color-white">Get paired with a local Hero</h1>
+								<p>1) When ready, just light a beacon. 2) Hasty will pair you with a local Hero.</br>3) Receive realtime updates on the status of your order and watch your products arrive in no time!</p>
+								<img class="owl-carousel-image" src="./moreFolders/assets/img/CheckoutLookingScrolled_iphone6plus_silver_portrait.png" alt="">
+								<img class="owl-carousel-image" src="./moreFolders/assets/img/NotificationFirst_iphone6plus_silver_portrait.png" alt="">
+								<img class="owl-carousel-image" src="./moreFolders/assets/img/NotificationHeroesFound_iphone6plus_silver_portrait.png" alt="">
+							</div>
+
+							<div class="item">
+								<h1 class="g-color-white">What next?</h1>
+								<p>1) Rate your experience. 2) Give us feedback. We love feedback!</p>
+								<img class="owl-carousel-image" src="./moreFolders/assets/img/Rating_iphone6plus_silver_portrait.png" alt="">
+								<img class="owl-carousel-image" src="./moreFolders/assets/img/Feedback_iphone6plus_silver_portrait.png" alt="">
+							</div>
+						</div>
+					</div> -->
+					<!-- End Owl Carousel v4 -->
+				<!-- </div>
+			</div>
+		</div>
+	</section> -->
+	<!-- End How It Works -->
+	<!-- FAQ -->
+	<!-- <section id="faqsec">
+		<div class="container">
+			<div class="faq">
+				<div class="g-heading-v10 g-mb-65">
+					<h2><em class="block-name"><span>03.</span> FAQ</em> Common questions</h2>
+					<p>Have a question not answered here? Send us an email from the page footer. We love answering questions and hearing from you.</p>
+				</div> -->
+
+				<!-- Tab v1 -->
+				<!-- <div class="tab-v1">
+					<ul class="nav nav-tabs">
+						<li class="active"><a href="#general" data-toggle="tab">General</a></li>
+						<li><a href="#signup" data-toggle="tab">Signup</a></li>
+						<li><a href="#security" data-toggle="tab">Security</a></li>
+						<li><a href="#privacypolicy" data-toggle="tab">Privacy policy</a></li>
+						<li><a href="#support" data-toggle="tab">Support</a></li>
+					</ul>
+					<div class="tab-content">
+						<div class="tab-pane fade in active" id="general">
+							<div class="tab-in">
+								<h4>I want to know more. How can I find out more?</h4>
+								<p>Subscribe to our email list above or checkout any of our social media pages (links in the footer).</p> -->
+								<!-- <a href="#">Read More</a> -->
+							<!-- </div>
+							<div class="tab-in">
+								<h4>Will you be at SXSW???</h4>
+								<p>Yes we will! In full force. SXSW is our official soft launch!</p> -->
+								<!-- <a href="#">Read More</a> -->
+							<!-- </div>
+							<div class="tab-in">
+								<h4>How do I contact you/get involved?</h4>
+								<p>All can be found below in the footer. You can send us an email or message us on facebook.</p> -->
+								<!-- <a href="#">Read More</a> -->
+							<!-- </div>
+						</div>
+
+						<div class="tab-pane fade in" id="signup">
+							<div class="tab-in">
+								<h4>How can I signup?</h4>
+								<p>When you download the app, you will be prompted to signup. You will have the option to signup with facebook or email at first. We are looking into other methods of signup.</p> -->
+								<!-- <a href="#">Read More</a> -->
+							<!-- </div>
+						</div>
+
+						<div class="tab-pane fade in" id="security">
+							<div class="tab-in">
+								<h4>Security?</h4>
+								<p>Hasty values your safety above all else. We do thorough background checks and in-person interviews on each and every Hasty Hero. We want safety to never be an issue when using our service. If you feel unsafe for any reason, please contact your government's emergency service for an emergency. Feel free to contact us about any non-emergency concerns.</p> -->
+								<!-- <a href="#">Read More</a> -->
+							<!-- </div>
+						</div>
+
+						<div class="tab-pane fade in" id="privacypolicy">
+							<div class="tab-in">
+								<h4>Privacy policy?</h4>
+								<p>Hasty values you privacy. We only use information required to do business per our privacy policy. We also plan to offer private packaging for orders you would like private. More coming soon. See our privacy policy for more.</p> -->
+								<!-- <a href="#">Read More</a> -->
+							<!-- </div>
+						</div>
+
+						<div class="tab-pane fade in" id="support">
+							<div class="tab-in">
+								<h4>How do I get help with an order?</h4>
+								<p>Send us an email with details about you and your order and we will get back to you quickly. You can also get help from within the app.</p> -->
+								<!-- <a href="#">Read More</a> -->
+							<!-- </div>
+						</div>
+					</div>
+				</div> -->
+				<!-- End Tab v1 -->
+			<!-- </div>
+		</div>
+	</section> -->
+	<!-- End FAQ -->
+
+	<!-- Footer -->
+	<section id="contact">
+		<!-- <div class="container-fluid with-bg-2 no-side-padding">
+			<div class="container">
+				<div class="footer">
+					<div class="row">
+						<div class="col-md-5">
+							<div class="g-heading-v10 g-mb-65">
+								<h2 class="g-color-white"><em class="block-name"><span class="g-color-white">04.</span> Contact us</em> Answers to <strong>your Questions</strong></h2>
+								<p>We love hearing from you. Seriously, just say hi if you want. We promise to send something special back.</p>
+							</div>
+						</div>
+						<div class="col-md-7">
+							<form action="#" method="post" id="sky-form3" class="sky-form contact-style">
+								<fieldset>
+									<div class="row">
+										<div class="col-md-6 col-md-offset-0">
+											<div class="margin-bottom-30">
+												<input type="text" name="name" id="name" class="form-control" placeholder="Name">
+											</div>
+											<div class="margin-bottom-30">
+												<input type="text" name="email" id="email" class="form-control" placeholder="Email *">
+											</div>
+										</div>
+										<div class="col-md-6 col-md-offset-0">
+											<div class="margin-bottom-30">
+												<textarea rows="4" name="message" id="message" class="form-control g-textarea-noresize" placeholder="Message"></textarea>
+											</div>
+											<p><button id="message-btn" class="btn-u btn-u-lg btn-u-upper rounded-2x">Submit</button></p>
+										</div>
+									</div>
+								</fieldset>
+								<div class="message">
+									<i class="rounded-x fa fa-check"></i>
+									<p>Your message was successfully sent!</p>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> -->
+		<div class="container-fluid with-bg-2">
+			<div class="subfooter">
+				<div class="row">
+					<div class="col-md-12 no-side-padding">
+						<ul class="list-inline social-list text-center">
+							<!-- <li class="facebook social-item"><a target="_blank" class="btn-block" href="https://www.facebook.com/myhasty"><i class="fa fa-facebook"></i></a></li> -->
+							<!-- <li class="pin social-item"><a target="_blank" class="btn-block" href="https://www.youtube.com/myhasty"><i class="fa fa-youtube"></i></a></li> -->
+							<!-- <li class="pin social-item"><a target="_blank" class="btn-block" href="https://www.pinterest.com/myhasty"><i class="fa fa-pinterest"></i></a></li> -->
+							<!-- <li class="inst social-item"><a target="_blank" class="btn-block" href="https://www.instagram.com/future.human"><i class="fa fa-instagram"></i></a></li> -->
+							<!-- <li class="twitter social-item"><a target="_blank" class="btn-block" href="https://twitter.com/myhasty"><i class="fa fa-twitter"></i></a></li> -->
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Footer -->
+
+	<!-- JS Global Compulsory -->
+	<script src="./moreFolders/assets/plugins/jquery/jquery.min.js"></script>
+	<script src="./moreFolders/assets/plugins/jquery/jquery-migrate.min.js"></script>
+	<script src="./moreFolders/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+
+	<!-- JS Implementing Plugins -->
+	<script src="./moreFolders/assets/plugins/smoothScroll.js"></script>
+	<script src="./moreFolders/assets/plugins/jquery.easing.min.js"></script>
+	<script src="./moreFolders/assets/plugins/pace/pace.min.js"></script>
+	<script src="./moreFolders/assets/plugins/owl-carousel2/owl.carousel.min.js"></script>
+	<script src="./moreFolders/assets/plugins/sky-forms-pro/skyforms/js/jquery.form.min.js"></script>
+	<script src="./moreFolders/assets/plugins/sky-forms-pro/skyforms/js/jquery.validate.min.js"></script>
+	<script src="./moreFolders/assets/plugins/cube-portfolio/cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
+	<script src="./moreFolders/assets/plugins/modernizr.js"></script>
+	<script src="./moreFolders/assets/plugins/shhos/shhos.js"></script>
+	<script src="./moreFolders/assets/plugins/wow/wow-ini-themes.js"></script>
+
+	<!-- JS Page Level-->
+	<script src="./moreFolders/assets/js/one.app.js"></script>
+	<script src="moreFolders/App/assets/js/plugins/pace-loader.js"></script>
+	<script src="moreFolders/App/assets/js/plugins/owl-carousel2.js"></script>
+	<script src="moreFolders/App/assets/js/plugins/cube-portfolio.js"></script>
+	<script src="moreFolders/App/assets/js/forms/contact.js"></script>
+	<script>
+		$(function() {
+			App.init();
+			OwlCarousel.initOwlCarousel();
+			ContactForm.initContactForm();
+		});
+	</script>
+	<script src="https://www.gstatic.com/firebasejs/4.8.0/firebase.js"></script>
+	<script>
+	  // Initialize Firebase
+	  var config = {
+	    apiKey: "AIzaSyDnV3HcnWiEHsy-iRogBbUSDanOs6OWKZ4",
+	    authDomain: "hastywebsite.firebaseapp.com",
+	    databaseURL: "https://hastywebsite.firebaseio.com",
+	    projectId: "hastywebsite",
+	    storageBucket: "hastywebsite.appspot.com",
+	    messagingSenderId: "569765185621"
+	  };
+	  firebase.initializeApp(config);
+	</script>
+	<script src="./moreFolders/assets/js/custom.js"></script>
+	<!--[if lt IE 10]>
+	  <script src="./moreFolders/assets/plugins/sky-forms-pro/skyforms/js/jquery.placeholder.min.js"></script>
+	<![endif]-->
+</body>
+</html>
